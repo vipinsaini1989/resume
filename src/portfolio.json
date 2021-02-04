@@ -1,0 +1,63 @@
+{
+    "personal":{
+        "name": "Vipin Saini",
+        "photo": "https://avatars.githubusercontent.com/u/32450671",
+        "designation": "Web developer",
+        "address": "282 Sector 32",
+        "city": "Ambala Cantt",
+        "state": "Haryana",
+        "phone": "+91 8398930678",
+        "email": "vipinsaini1989@gmail.com",
+        "skills": { 
+            "frontend": ["HTML","CSS3", "Vanila Javascript","Angular","Vue","React", "Ionic"],
+            "backend": ["Python", "Node"]
+        },
+        "languages": ["English","Hindi"]
+    },
+    "company": {
+        "name": "IoTReady",
+        "city": "Bangalore",
+        "from": "2018-02-01T18:30:00.000Z",
+        "to": "",
+        "website": "https://www.iotready.co",
+        "description": "Joined J​aaga Labs​ in Feb 2018, later by the end of 2019 the company registered as IoTReady.​ Company believes in creating products that solve problems which are common to all, while doing the service projects to meet the financial requirements."
+    },
+    "work_experience":[
+        {
+            "title": "Internal Project",
+            "role": "Frontend",
+            "technology": ["React","Recoil","Firebase"],
+            "description": "The project is considered to be the main website of the Company. Currently working as a lead developer, handling full Frontend requirements onthewebapp.AstheappisinReact,enjoyworkingwith react hooks and getting the work done with the framework."
+        },
+        {
+            "title": "Open Innovation Platform",
+            "role": "Frontend & Backend",
+            "technology": ["Vue JS", "JQuery", "Jinja", "Python"],
+            "description": "Open Innovation Platform is the app to share problems and solutions across the world, an initiative by ​Social Alpha(A TATA trust incubator).​ App is written in the Frappe framework. The project is on the verge of it’s phase, currently working on the bug fixes of the app, handling both the javascript and python requirements."
+        },
+        {
+            "title": "Meghshala",
+            "role": "Frontend & Backend",
+            "technology": ["Google App Script", "AWS Lambda", "Ionic"],
+            "description": "Lead Developer for the two major applications for Meghshala, NGO which provides content to the school teachers. The frontend for the first application was built on Ionic and AWS services like Lambda, s3 storage, DynamoDB, pinpoint, and cognito for the back-end infrastructure. We also built a Content Management System using Google App Script which helps adding metadata for showing the right content in the mobile app."
+        }
+    ],
+    "education":[
+        {
+            "college": "Hindustan University",
+            "city": "Chennai",
+            "course": "MTech",
+            "branch":"Thermal Engineering",
+            "to": "2013-04-30T18:30:00.000Z",
+            "from": "2011-05-31T18:30:00.000Z"
+        },
+        {
+            "college": "B.S.A.I.T.M",
+            "city": "Faridabad",
+            "course": "BTech",
+            "branch":"Mechanical Engineering",
+            "from": "2007-05-30T18:30:00.000Z",
+            "to": "2011-04-31T18:30:00.000Z"
+        }
+    ]
+}
