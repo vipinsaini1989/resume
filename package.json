@@ -1,9 +1,12 @@
 {
   "name": "svelte-app",
   "version": "1.0.0",
+  "homepage": "htttp://vipinsaini1989.github.io/resume",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
+    "predeploy": "rollup -c",
+    "deploy": "gh-pages -d build",
     "start": "sirv public"
   },
   "devDependencies": {
@@ -18,6 +21,7 @@
   },
   "dependencies": {
     "@rollup/plugin-json": "^4.1.0",
+    "gh-pages": "^3.1.0",
     "rollup-plugin-svelte-svg": "^0.2.3",
     "sirv-cli": "^1.0.0"
   }
