@@ -14,9 +14,9 @@
 <main>
     <div class="container m-sm-3 p-sm-5">
         <div class="row">
-            <div class="col-sm-8">
+            <div class="col-sm-8 print-8">
                 <section class="d-sm-flex">
-                    <img src={data.personal.photo} class="img-profile" alt={data.personal.name}/>
+                    <img src={data.personal.photo} class="img-profile d-print-none" alt={data.personal.name}/>
                     <div class="mx-sm-3 mt-4 mt-sm-0">
                         <h1>{data.personal.name}</h1>
                         <p>
@@ -57,7 +57,7 @@
                     {/each}
                 </section>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 print-4">
                 <section>
                     {data.personal.address}
                     <br>
@@ -128,4 +128,16 @@
             width: 12rem;
         }   
      }
+
+    @media print {
+       .print-8 {
+        flex: 0 0 auto;
+        width: calc(8 * (100% / 12));
+       }
+       
+       .print-4 {
+        flex: 0 0 auto;
+        width: calc(4 * (100% / 12));
+       }
+    }
 </style>

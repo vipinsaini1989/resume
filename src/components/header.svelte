@@ -3,7 +3,7 @@
     import Linkedin from '../assets/linkedin.svg'
 </script>
 
-<nav class="navbar navbar-light bg-light">
+<nav class="navbar navbar-light bg-light d-print-none">
     <div class="container-fluid">
         <div class="d-none d-sm-block"></div>
         <div class="navbar-text social-btns-div">
